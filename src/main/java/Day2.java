@@ -1,10 +1,7 @@
-public class Day1 {
-    public static void main1(String[] args) {
-
-
-
+public class Day2 {
+    public static void main2(String[] args) {
     }
-    public void day1function(){
+    public void day2function(){
         int[] sonar = {124,
                 125,
                 127,
@@ -2007,14 +2004,14 @@ public class Day1 {
                 8564
         };
         int increasedNumber = 0;
-        System.out.println(sonar.length);
-
-        for(int i = 1; i <= sonar.length - 1; i ++){
-
-            if(sonar[i] > sonar[i - 1]){
+        for(int i = 3; i < sonar.length; i++){
+            if(sonar[i] + sonar[i - 1] + sonar[i - 2] > sonar[i - 1] + sonar[i - 2] + sonar[i - 3]){
                 increasedNumber++;
             }
+            System.out.println();
         }
         System.out.println(increasedNumber);
     }
+
 }
+
