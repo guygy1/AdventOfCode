@@ -1,6 +1,6 @@
 public class RunDay {
     public static void main(String[] args) {
-        Day2 day = new Day2();
-        day.day22function();
+        Day3 day = new Day3();
+        day.day31function();
     }
 }
