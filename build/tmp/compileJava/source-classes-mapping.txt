@@ -1,5 +1,7 @@
 Day1.java
  Day1
+Day3.java
+ Day3
 RunDay.java
  RunDay
 Day2.java
